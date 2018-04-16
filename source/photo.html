@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>HTML Academy: Пинк</title>
+</head>
+<body>
+
+	<header class="page-header">
+		<a class="page-header__logo" href="#">
+			<img src="class page-header__logo-image" src="img/logotype-mobile.svg" width="77" height="24" alt="Pink">
+		</a>
+		<nav class="main-nav">
+			<button class="main-nav__toggle" type="button">Открыть меню</button>
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item"><a href="index.html">Главная</a></li>
+					<li class="site-list__item site-list__item--active"><a href="photo.html">Фотографии</a></li>
+					<li class="site-list__item"><a href="form.html">Конкурсы</a></li>
+					<li class="site-list__item"><a href="#">HtmlAcademy</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="page-photo">
+
+		<section class="show">
+			<h1 class="visually-hidden">Фотографии пользователей</h1>
+			<header class="show__header">
+				<p class="show__intro">Фотографии пользователей</p>
+				<p class="show__comment">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+			</header>
+			<div class="show__list">
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<span class="show__promo">Панорама дня</span>
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Анна</cite>
+					<span class="show__time">(5 минут назад)</span>
+					<p class="show__comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+					<p class="show__like">Нравится: 215</p>
+				</blockquote>
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Левон</cite>
+					<span class="show__time">(5 часов назад)</span>
+					<p class="show__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+					<p class="show__like">Нравится: 356</p>
+				</blockquote>
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Антон</cite>
+					<span class="show__time">(12 часов назад)</span>
+					<p class="show__comment">Соседи будут рады!</p>
+					<p class="show__like">Нравится: 666</p>
+				</blockquote>
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Борис</cite>
+					<span class="show__time">(20 часов назад)</span>
+					<p class="show__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+					<p class="show__like">Нравится: 215</p>
+				</blockquote>
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Сергей</cite>
+					<span class="show__time">(25 часов назад)</span>
+					<p class="show__comment">Самая кубанская в мире!</p>
+					<p class="show__like">Нравится: 4</p>
+				</blockquote>
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Максим</cite>
+					<span class="show__time">(40 часов назад)</span>
+					<p class="show__comment">Где снег то?</p>
+					<p class="show__like">Нравится: 150</p>
+				</blockquote>
+				<blockquote class="show__item">
+					<p class="show__creator-picture">
+						<a class="show__image" href="#">
+							<img src="http://placehold.it/150x100" alt="Photo">
+						</a>
+					</p>
+					<cite class="show__creator-name">Надежда</cite>
+					<span class="show__time">(45 часов назад)</span>
+					<p class="show__comment">Всем GM и взаимные лайки!</p>
+					<p class="show__like">Нравится: 2560</p>
+				</blockquote>
+			</div>
+		</section>
+
+		<section class="filter">
+			<h2 class="visually-hidden">Отредактируйте свои фото</h2>
+			<header class="filter__header">
+				<p class="filter__comment">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+			</header>
+			<img src="http://placehold.it/280x374" alt="рисунок">
+			<ul class="filter__list">
+				<li class="filter__item filter__item--crop"><span class="visually-hidden">Кадрирование</span></li>
+				<li class="filter__item filter__item--fill"><span class="visually-hidden">Заполнение</span></li>
+				<li class="filter__item filter__item--contrast"><span class="visually-hidden">Контрастность</span></li>
+			</ul>
+			<button class="filter__submit button" type="submit">Запостить</button>
+			<button class="filter__reset button" type="reset">Отмена</button>
+		</section>
+	</main>
+
+	<footer class="page-footer">
+		<div class="page-footer__wrapper">
+			<div class="page-footer__social social">
+				<img src="http://placehold.it/150x40" alt="Pink_logo"></img>
+				<ul class="social__list">
+					<li class="social__item">
+						<a class="social__link social__link--twitter" href="#"><span class="visually-hidden">Twitter</span></a>
+					</li>
+					<li class="social__item">
+						<a class="social__link social__link--facebook" href="#"><span class="visually-hidden">Facebook</span></a>
+					</li>
+					<li class="social__item">
+						<a class="social__link social__link--youtube" href="#"><span class="visually-hidden">YouTube</span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="page-footer__copyright copyright">
+				<span class="copyright__text">Разработано </span>
+				<a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank"><span class="visually-hidden">HtmlAcademy</span></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
